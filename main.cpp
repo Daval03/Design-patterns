@@ -8,5 +8,4 @@ int main() {
     lib.Attach(&libro2);
     lib.Attach(&libro3);
     lib.setState(1000);
-
 }

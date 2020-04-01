@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Datos_2___2_0.dir/main.cpp.o CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o  -o Datos_2___2_0 
