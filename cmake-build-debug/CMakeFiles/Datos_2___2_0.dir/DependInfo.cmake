@@ -4,9 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/main.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/main.cpp.o"
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/libreria.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o"
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/producto.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o"
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/Adapter Pattern/Adapter.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.o"
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/Adapter Pattern/Blender.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.o"
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/Adapter Pattern/Socket.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.o"
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/mainAdapter.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.o"
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/patron de diseño observer/libreria.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o"
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/patron de diseño observer/producto.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

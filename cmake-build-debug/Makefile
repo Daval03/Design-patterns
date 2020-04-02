@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/aldo/Descargas/clion-2019.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/103/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/aldo/Descargas/clion-2019.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/103/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/aldo/CLionProjects/Datos 2 - 2.0"
+CMAKE_SOURCE_DIR = /home/shakime/Desktop/CodeWorks/Design-patterns
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug"
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/aldo/Descargas/clion-2019.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/103/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/aldo/Descargas/clion-2019.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/103/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,113 @@ Datos_2___2_0/fast:
 	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/build
 .PHONY : Datos_2___2_0/fast
 
-main.o: main.cpp.o
+Adapter_Pattern/Adapter.o: Adapter_Pattern/Adapter.cpp.o
 
-.PHONY : main.o
+.PHONY : Adapter_Pattern/Adapter.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/main.cpp.o
-.PHONY : main.cpp.o
+Adapter_Pattern/Adapter.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.o
+.PHONY : Adapter_Pattern/Adapter.cpp.o
 
-main.i: main.cpp.i
+Adapter_Pattern/Adapter.i: Adapter_Pattern/Adapter.cpp.i
 
-.PHONY : main.i
+.PHONY : Adapter_Pattern/Adapter.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/main.cpp.i
-.PHONY : main.cpp.i
+Adapter_Pattern/Adapter.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.i
+.PHONY : Adapter_Pattern/Adapter.cpp.i
 
-main.s: main.cpp.s
+Adapter_Pattern/Adapter.s: Adapter_Pattern/Adapter.cpp.s
 
-.PHONY : main.s
+.PHONY : Adapter_Pattern/Adapter.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/main.cpp.s
-.PHONY : main.cpp.s
+Adapter_Pattern/Adapter.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.s
+.PHONY : Adapter_Pattern/Adapter.cpp.s
+
+Adapter_Pattern/Blender.o: Adapter_Pattern/Blender.cpp.o
+
+.PHONY : Adapter_Pattern/Blender.o
+
+# target to build an object file
+Adapter_Pattern/Blender.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.o
+.PHONY : Adapter_Pattern/Blender.cpp.o
+
+Adapter_Pattern/Blender.i: Adapter_Pattern/Blender.cpp.i
+
+.PHONY : Adapter_Pattern/Blender.i
+
+# target to preprocess a source file
+Adapter_Pattern/Blender.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.i
+.PHONY : Adapter_Pattern/Blender.cpp.i
+
+Adapter_Pattern/Blender.s: Adapter_Pattern/Blender.cpp.s
+
+.PHONY : Adapter_Pattern/Blender.s
+
+# target to generate assembly for a file
+Adapter_Pattern/Blender.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.s
+.PHONY : Adapter_Pattern/Blender.cpp.s
+
+Adapter_Pattern/Socket.o: Adapter_Pattern/Socket.cpp.o
+
+.PHONY : Adapter_Pattern/Socket.o
+
+# target to build an object file
+Adapter_Pattern/Socket.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.o
+.PHONY : Adapter_Pattern/Socket.cpp.o
+
+Adapter_Pattern/Socket.i: Adapter_Pattern/Socket.cpp.i
+
+.PHONY : Adapter_Pattern/Socket.i
+
+# target to preprocess a source file
+Adapter_Pattern/Socket.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.i
+.PHONY : Adapter_Pattern/Socket.cpp.i
+
+Adapter_Pattern/Socket.s: Adapter_Pattern/Socket.cpp.s
+
+.PHONY : Adapter_Pattern/Socket.s
+
+# target to generate assembly for a file
+Adapter_Pattern/Socket.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.s
+.PHONY : Adapter_Pattern/Socket.cpp.s
+
+mainAdapter.o: mainAdapter.cpp.o
+
+.PHONY : mainAdapter.o
+
+# target to build an object file
+mainAdapter.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.o
+.PHONY : mainAdapter.cpp.o
+
+mainAdapter.i: mainAdapter.cpp.i
+
+.PHONY : mainAdapter.i
+
+# target to preprocess a source file
+mainAdapter.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.i
+.PHONY : mainAdapter.cpp.i
+
+mainAdapter.s: mainAdapter.cpp.s
+
+.PHONY : mainAdapter.s
+
+# target to generate assembly for a file
+mainAdapter.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.s
+.PHONY : mainAdapter.cpp.s
 
 patron_de_diseño_observer/libreria.o: patron_de_diseño_observer/libreria.cpp.o
 
@@ -213,9 +294,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Datos_2___2_0"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Adapter_Pattern/Adapter.o"
+	@echo "... Adapter_Pattern/Adapter.i"
+	@echo "... Adapter_Pattern/Adapter.s"
+	@echo "... Adapter_Pattern/Blender.o"
+	@echo "... Adapter_Pattern/Blender.i"
+	@echo "... Adapter_Pattern/Blender.s"
+	@echo "... Adapter_Pattern/Socket.o"
+	@echo "... Adapter_Pattern/Socket.i"
+	@echo "... Adapter_Pattern/Socket.s"
+	@echo "... mainAdapter.o"
+	@echo "... mainAdapter.i"
+	@echo "... mainAdapter.s"
 	@echo "... patron_de_diseño_observer/libreria.o"
 	@echo "... patron_de_diseño_observer/libreria.i"
 	@echo "... patron_de_diseño_observer/libreria.s"

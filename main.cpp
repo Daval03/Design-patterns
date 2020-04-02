@@ -1,5 +1,6 @@
 #import "patron de diseño/libreria.h++"
 #import "patron de diseño/producto.h++"
+//import  "Adapter Pattern"
 using namespace std;
 int main() {
     libreria lib;
