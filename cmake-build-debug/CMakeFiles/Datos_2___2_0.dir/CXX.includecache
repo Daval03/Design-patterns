@@ -6,41 +6,13 @@
 
 #IncludeRegexTransform: 
 
+/home/aldo/CLionProjects/Datos 2 - 2.0/Pruebas de la progra 1/SmartPtr.h++
+iostream
+-
+
 /home/aldo/CLionProjects/Datos 2 - 2.0/main.cpp
-patron de diseño/libreria.h++
-/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño/libreria.h++
-patron de diseño/producto.h++
-/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño/producto.h++
-
-/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/Observer.h++
-
-/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/Subject.h++
-Observer.h++
-/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/Observer.h++
-
-/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/libreria.cpp
-libreria.h++
-/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/libreria.h++
-
-/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/libreria.h++
-vector
--
-algorithm
--
-iostream
--
-Subject.h++
-/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/Subject.h++
-
-/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/producto.cpp
-producto.h++
-/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/producto.h++
-
-/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/producto.h++
-iostream
--
+Pruebas de la progra 1/SmartPtr.h++
+/home/aldo/CLionProjects/Datos 2 - 2.0/Pruebas de la progra 1/SmartPtr.h++
 string
--
-Observer.h++
-/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/Observer.h++
+/home/aldo/CLionProjects/Datos 2 - 2.0/string
 

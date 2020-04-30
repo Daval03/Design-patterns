@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o"
   "CMakeFiles/Datos_2___2_0.dir/main.cpp.o"
   "CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o"
   "CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o"

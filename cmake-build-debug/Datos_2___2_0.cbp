@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/Pruebas de la progra 1/SmartPtr.cpp">
+			<Option target="Datos_2___2_0"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/Pruebas de la progra 1/SmartPtr.h++">
+			<Option target="Datos_2___2_0"/>
+		</Unit>
 		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/main.cpp">
 			<Option target="Datos_2___2_0"/>
 		</Unit>

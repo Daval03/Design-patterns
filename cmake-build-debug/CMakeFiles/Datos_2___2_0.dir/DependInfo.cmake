@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/aldo/CLionProjects/Datos 2 - 2.0/Pruebas de la progra 1/SmartPtr.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o"
   "/home/aldo/CLionProjects/Datos 2 - 2.0/main.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/main.cpp.o"
   "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/libreria.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o"
   "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/producto.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o"

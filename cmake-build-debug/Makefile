@@ -123,6 +123,33 @@ Datos_2___2_0/fast:
 	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/build
 .PHONY : Datos_2___2_0/fast
 
+Pruebas_de_la_progra_1/SmartPtr.o: Pruebas_de_la_progra_1/SmartPtr.cpp.o
+
+.PHONY : Pruebas_de_la_progra_1/SmartPtr.o
+
+# target to build an object file
+Pruebas_de_la_progra_1/SmartPtr.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o
+.PHONY : Pruebas_de_la_progra_1/SmartPtr.cpp.o
+
+Pruebas_de_la_progra_1/SmartPtr.i: Pruebas_de_la_progra_1/SmartPtr.cpp.i
+
+.PHONY : Pruebas_de_la_progra_1/SmartPtr.i
+
+# target to preprocess a source file
+Pruebas_de_la_progra_1/SmartPtr.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.i
+.PHONY : Pruebas_de_la_progra_1/SmartPtr.cpp.i
+
+Pruebas_de_la_progra_1/SmartPtr.s: Pruebas_de_la_progra_1/SmartPtr.cpp.s
+
+.PHONY : Pruebas_de_la_progra_1/SmartPtr.s
+
+# target to generate assembly for a file
+Pruebas_de_la_progra_1/SmartPtr.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.s
+.PHONY : Pruebas_de_la_progra_1/SmartPtr.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Datos_2___2_0"
 	@echo "... edit_cache"
+	@echo "... Pruebas_de_la_progra_1/SmartPtr.o"
+	@echo "... Pruebas_de_la_progra_1/SmartPtr.i"
+	@echo "... Pruebas_de_la_progra_1/SmartPtr.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

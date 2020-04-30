@@ -7,7 +7,9 @@
 #include <algorithm>
 #include <iostream>
 #include "Subject.h++"
-class libreria:public Subject{
+#include "producto.h++"
+
+class libreria: public Subject{
     std::vector<Observer *> observers;
     int price;
 public:

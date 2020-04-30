@@ -1,11 +1,13 @@
-#import "patron de diseño/libreria.h++"
-#import "patron de diseño/producto.h++"
+#include "Pruebas de la progra 1/SmartPtr.h++"
+#include "string"
 using namespace std;
 int main() {
-    libreria lib;
-    producto libro1("Mate"),libro2("Fisica"),libro3("Electro");
-    lib.Attach(&libro1);
-    lib.Attach(&libro2);
-    lib.Attach(&libro3);
-    lib.setState(1000);
+
+//    //ptr2.operator=("hola");
+//    //*ptr=ptr2;
+//
+//    int valor= *ptr;
+    cout<<78;
+    cout<< "\n";
+    cout<< 74;
 }
