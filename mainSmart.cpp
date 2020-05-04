@@ -1,18 +1,14 @@
 #include "Pruebas de la progra 1/SmartPtr.h++"
 #include "Pruebas de la progra 1/Hash.h"
-#include "Pruebas de la progra 1/LinkedList.h"
-#include "Pruebas de la progra 1/Node.h"
+#include "Pruebas de la progra 1/LinkedList.cpp"
 #include "string"
 using namespace std;
 int main() {
 
-    Node<int> n(1);
-    n.getData();
-
-    /*
     SmartPtr<int> ptr1(new int());
     SmartPtr<int> ptr2(new int());
 
+    /*
     *ptr1 = 1;
     //llamada al gbcollector
     Hash hash1(*&ptr1);

@@ -16,11 +16,19 @@ set(CMAKE_CXX_STANDARD 14)
 #        )
 
 add_executable( Datos_2___2_0 mainSmart.cpp
-        "Pruebas de la progra 1/SmartPtr"
-        "Pruebas de la progra 1/Hash"
-        "Pruebas de la progra 1/GBCollector"
-        "Pruebas de la progra 1/LinkedList"
-        "Pruebas de la progra 1/Node")
+        "Pruebas de la progra 1/SmartPtr.h++"
+        "Pruebas de la progra 1/SmartPtr.cpp"
+
+        "Pruebas de la progra 1/Hash.h"
+        "Pruebas de la progra 1/Hash.cpp"
+
+        "Pruebas de la progra 1/GBCollector.h"
+        "Pruebas de la progra 1/GBCollector.cpp"
+
+        "Pruebas de la progra 1/LinkedList.h"
+        "Pruebas de la progra 1/LinkedList.cpp"
+
+        )
 
 
 

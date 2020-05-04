@@ -10,17 +10,13 @@ CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Hash.cpp.o: ../Pruebas\ de\ 
 
 CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o: ../Pruebas\ de\ la\ progra\ 1/LinkedList.cpp
 CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o: ../Pruebas\ de\ la\ progra\ 1/LinkedList.h
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Node.h
-
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Node.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Node.cpp
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Node.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Node.h
 
 CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o: ../Pruebas\ de\ la\ progra\ 1/SmartPtr.cpp
 CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o: ../Pruebas\ de\ la\ progra\ 1/SmartPtr.h++
 
 CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Hash.h
+CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/LinkedList.cpp
 CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/LinkedList.h
-CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Node.h
 CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/SmartPtr.h++
 CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../mainSmart.cpp
 

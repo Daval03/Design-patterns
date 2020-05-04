@@ -204,33 +204,6 @@ Pruebas_de_la_progra_1/LinkedList.cpp.s:
 	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.s
 .PHONY : Pruebas_de_la_progra_1/LinkedList.cpp.s
 
-Pruebas_de_la_progra_1/Node.o: Pruebas_de_la_progra_1/Node.cpp.o
-
-.PHONY : Pruebas_de_la_progra_1/Node.o
-
-# target to build an object file
-Pruebas_de_la_progra_1/Node.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Node.cpp.o
-.PHONY : Pruebas_de_la_progra_1/Node.cpp.o
-
-Pruebas_de_la_progra_1/Node.i: Pruebas_de_la_progra_1/Node.cpp.i
-
-.PHONY : Pruebas_de_la_progra_1/Node.i
-
-# target to preprocess a source file
-Pruebas_de_la_progra_1/Node.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Node.cpp.i
-.PHONY : Pruebas_de_la_progra_1/Node.cpp.i
-
-Pruebas_de_la_progra_1/Node.s: Pruebas_de_la_progra_1/Node.cpp.s
-
-.PHONY : Pruebas_de_la_progra_1/Node.s
-
-# target to generate assembly for a file
-Pruebas_de_la_progra_1/Node.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Node.cpp.s
-.PHONY : Pruebas_de_la_progra_1/Node.cpp.s
-
 Pruebas_de_la_progra_1/SmartPtr.o: Pruebas_de_la_progra_1/SmartPtr.cpp.o
 
 .PHONY : Pruebas_de_la_progra_1/SmartPtr.o
@@ -303,9 +276,6 @@ help:
 	@echo "... Pruebas_de_la_progra_1/LinkedList.o"
 	@echo "... Pruebas_de_la_progra_1/LinkedList.i"
 	@echo "... Pruebas_de_la_progra_1/LinkedList.s"
-	@echo "... Pruebas_de_la_progra_1/Node.o"
-	@echo "... Pruebas_de_la_progra_1/Node.i"
-	@echo "... Pruebas_de_la_progra_1/Node.s"
 	@echo "... Pruebas_de_la_progra_1/SmartPtr.o"
 	@echo "... Pruebas_de_la_progra_1/SmartPtr.i"
 	@echo "... Pruebas_de_la_progra_1/SmartPtr.s"
