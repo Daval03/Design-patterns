@@ -1,1 +1,4 @@
 /cmake-build-debug/
+/mainSmart.cpp
+/Hash.cpp
+/Hash.h

@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Adapter.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.o"
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Blender.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.o"
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Socket.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.o"
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/mainAdapter.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.o"
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/libreria.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o"
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/producto.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o"
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/GBCollector.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.o"
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/Hash.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Hash.cpp.o"
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/LinkedList.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o"
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/Node.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Node.cpp.o"
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/SmartPtr.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o"
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/mainSmart.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

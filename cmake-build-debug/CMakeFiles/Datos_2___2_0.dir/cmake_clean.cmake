@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.o"
-  "CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.o"
-  "CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.o"
-  "CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.o"
-  "CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o"
-  "CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o"
+  "CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.o"
+  "CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Hash.cpp.o"
+  "CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o"
+  "CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Node.cpp.o"
+  "CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o"
+  "CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o"
   "Datos_2___2_0"
   "Datos_2___2_0.pdb"
 )

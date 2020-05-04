@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/aldo/Descargas/clion-2019.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/103/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/aldo/Descargas/clion-2019.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/103/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/aldo/CLionProjects/Datos 2 - 2.0"
+CMAKE_SOURCE_DIR = /home/shakime/Desktop/CodeWorks/Design-patterns
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug"
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/aldo/Descargas/clion-2019.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/103/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/aldo/Descargas/clion-2019.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/103/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,167 +123,167 @@ Datos_2___2_0/fast:
 	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/build
 .PHONY : Datos_2___2_0/fast
 
-Adapter_Pattern/Adapter.o: Adapter_Pattern/Adapter.cpp.o
+Pruebas_de_la_progra_1/GBCollector.o: Pruebas_de_la_progra_1/GBCollector.cpp.o
 
-.PHONY : Adapter_Pattern/Adapter.o
-
-# target to build an object file
-Adapter_Pattern/Adapter.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.o
-.PHONY : Adapter_Pattern/Adapter.cpp.o
-
-Adapter_Pattern/Adapter.i: Adapter_Pattern/Adapter.cpp.i
-
-.PHONY : Adapter_Pattern/Adapter.i
-
-# target to preprocess a source file
-Adapter_Pattern/Adapter.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.i
-.PHONY : Adapter_Pattern/Adapter.cpp.i
-
-Adapter_Pattern/Adapter.s: Adapter_Pattern/Adapter.cpp.s
-
-.PHONY : Adapter_Pattern/Adapter.s
-
-# target to generate assembly for a file
-Adapter_Pattern/Adapter.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.s
-.PHONY : Adapter_Pattern/Adapter.cpp.s
-
-Adapter_Pattern/Blender.o: Adapter_Pattern/Blender.cpp.o
-
-.PHONY : Adapter_Pattern/Blender.o
+.PHONY : Pruebas_de_la_progra_1/GBCollector.o
 
 # target to build an object file
-Adapter_Pattern/Blender.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.o
-.PHONY : Adapter_Pattern/Blender.cpp.o
+Pruebas_de_la_progra_1/GBCollector.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.o
+.PHONY : Pruebas_de_la_progra_1/GBCollector.cpp.o
 
-Adapter_Pattern/Blender.i: Adapter_Pattern/Blender.cpp.i
+Pruebas_de_la_progra_1/GBCollector.i: Pruebas_de_la_progra_1/GBCollector.cpp.i
 
-.PHONY : Adapter_Pattern/Blender.i
+.PHONY : Pruebas_de_la_progra_1/GBCollector.i
 
 # target to preprocess a source file
-Adapter_Pattern/Blender.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.i
-.PHONY : Adapter_Pattern/Blender.cpp.i
+Pruebas_de_la_progra_1/GBCollector.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.i
+.PHONY : Pruebas_de_la_progra_1/GBCollector.cpp.i
 
-Adapter_Pattern/Blender.s: Adapter_Pattern/Blender.cpp.s
+Pruebas_de_la_progra_1/GBCollector.s: Pruebas_de_la_progra_1/GBCollector.cpp.s
 
-.PHONY : Adapter_Pattern/Blender.s
+.PHONY : Pruebas_de_la_progra_1/GBCollector.s
 
 # target to generate assembly for a file
-Adapter_Pattern/Blender.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.s
-.PHONY : Adapter_Pattern/Blender.cpp.s
+Pruebas_de_la_progra_1/GBCollector.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.s
+.PHONY : Pruebas_de_la_progra_1/GBCollector.cpp.s
 
-Adapter_Pattern/Socket.o: Adapter_Pattern/Socket.cpp.o
+Pruebas_de_la_progra_1/Hash.o: Pruebas_de_la_progra_1/Hash.cpp.o
 
-.PHONY : Adapter_Pattern/Socket.o
+.PHONY : Pruebas_de_la_progra_1/Hash.o
 
 # target to build an object file
-Adapter_Pattern/Socket.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.o
-.PHONY : Adapter_Pattern/Socket.cpp.o
+Pruebas_de_la_progra_1/Hash.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Hash.cpp.o
+.PHONY : Pruebas_de_la_progra_1/Hash.cpp.o
 
-Adapter_Pattern/Socket.i: Adapter_Pattern/Socket.cpp.i
+Pruebas_de_la_progra_1/Hash.i: Pruebas_de_la_progra_1/Hash.cpp.i
 
-.PHONY : Adapter_Pattern/Socket.i
+.PHONY : Pruebas_de_la_progra_1/Hash.i
 
 # target to preprocess a source file
-Adapter_Pattern/Socket.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.i
-.PHONY : Adapter_Pattern/Socket.cpp.i
+Pruebas_de_la_progra_1/Hash.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Hash.cpp.i
+.PHONY : Pruebas_de_la_progra_1/Hash.cpp.i
 
-Adapter_Pattern/Socket.s: Adapter_Pattern/Socket.cpp.s
+Pruebas_de_la_progra_1/Hash.s: Pruebas_de_la_progra_1/Hash.cpp.s
 
-.PHONY : Adapter_Pattern/Socket.s
+.PHONY : Pruebas_de_la_progra_1/Hash.s
 
 # target to generate assembly for a file
-Adapter_Pattern/Socket.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.s
-.PHONY : Adapter_Pattern/Socket.cpp.s
+Pruebas_de_la_progra_1/Hash.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Hash.cpp.s
+.PHONY : Pruebas_de_la_progra_1/Hash.cpp.s
 
-mainAdapter.o: mainAdapter.cpp.o
+Pruebas_de_la_progra_1/LinkedList.o: Pruebas_de_la_progra_1/LinkedList.cpp.o
 
-.PHONY : mainAdapter.o
+.PHONY : Pruebas_de_la_progra_1/LinkedList.o
 
 # target to build an object file
-mainAdapter.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.o
-.PHONY : mainAdapter.cpp.o
+Pruebas_de_la_progra_1/LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o
+.PHONY : Pruebas_de_la_progra_1/LinkedList.cpp.o
 
-mainAdapter.i: mainAdapter.cpp.i
+Pruebas_de_la_progra_1/LinkedList.i: Pruebas_de_la_progra_1/LinkedList.cpp.i
 
-.PHONY : mainAdapter.i
+.PHONY : Pruebas_de_la_progra_1/LinkedList.i
 
 # target to preprocess a source file
-mainAdapter.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.i
-.PHONY : mainAdapter.cpp.i
+Pruebas_de_la_progra_1/LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.i
+.PHONY : Pruebas_de_la_progra_1/LinkedList.cpp.i
 
-mainAdapter.s: mainAdapter.cpp.s
+Pruebas_de_la_progra_1/LinkedList.s: Pruebas_de_la_progra_1/LinkedList.cpp.s
 
-.PHONY : mainAdapter.s
+.PHONY : Pruebas_de_la_progra_1/LinkedList.s
 
 # target to generate assembly for a file
-mainAdapter.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.s
-.PHONY : mainAdapter.cpp.s
+Pruebas_de_la_progra_1/LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.s
+.PHONY : Pruebas_de_la_progra_1/LinkedList.cpp.s
 
-patron_de_diseño_observer/libreria.o: patron_de_diseño_observer/libreria.cpp.o
+Pruebas_de_la_progra_1/Node.o: Pruebas_de_la_progra_1/Node.cpp.o
 
-.PHONY : patron_de_diseño_observer/libreria.o
+.PHONY : Pruebas_de_la_progra_1/Node.o
 
 # target to build an object file
-patron_de_diseño_observer/libreria.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o
-.PHONY : patron_de_diseño_observer/libreria.cpp.o
+Pruebas_de_la_progra_1/Node.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Node.cpp.o
+.PHONY : Pruebas_de_la_progra_1/Node.cpp.o
 
-patron_de_diseño_observer/libreria.i: patron_de_diseño_observer/libreria.cpp.i
+Pruebas_de_la_progra_1/Node.i: Pruebas_de_la_progra_1/Node.cpp.i
 
-.PHONY : patron_de_diseño_observer/libreria.i
+.PHONY : Pruebas_de_la_progra_1/Node.i
 
 # target to preprocess a source file
-patron_de_diseño_observer/libreria.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.i
-.PHONY : patron_de_diseño_observer/libreria.cpp.i
+Pruebas_de_la_progra_1/Node.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Node.cpp.i
+.PHONY : Pruebas_de_la_progra_1/Node.cpp.i
 
-patron_de_diseño_observer/libreria.s: patron_de_diseño_observer/libreria.cpp.s
+Pruebas_de_la_progra_1/Node.s: Pruebas_de_la_progra_1/Node.cpp.s
 
-.PHONY : patron_de_diseño_observer/libreria.s
+.PHONY : Pruebas_de_la_progra_1/Node.s
 
 # target to generate assembly for a file
-patron_de_diseño_observer/libreria.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.s
-.PHONY : patron_de_diseño_observer/libreria.cpp.s
+Pruebas_de_la_progra_1/Node.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Node.cpp.s
+.PHONY : Pruebas_de_la_progra_1/Node.cpp.s
 
-patron_de_diseño_observer/producto.o: patron_de_diseño_observer/producto.cpp.o
+Pruebas_de_la_progra_1/SmartPtr.o: Pruebas_de_la_progra_1/SmartPtr.cpp.o
 
-.PHONY : patron_de_diseño_observer/producto.o
+.PHONY : Pruebas_de_la_progra_1/SmartPtr.o
 
 # target to build an object file
-patron_de_diseño_observer/producto.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o
-.PHONY : patron_de_diseño_observer/producto.cpp.o
+Pruebas_de_la_progra_1/SmartPtr.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o
+.PHONY : Pruebas_de_la_progra_1/SmartPtr.cpp.o
 
-patron_de_diseño_observer/producto.i: patron_de_diseño_observer/producto.cpp.i
+Pruebas_de_la_progra_1/SmartPtr.i: Pruebas_de_la_progra_1/SmartPtr.cpp.i
 
-.PHONY : patron_de_diseño_observer/producto.i
+.PHONY : Pruebas_de_la_progra_1/SmartPtr.i
 
 # target to preprocess a source file
-patron_de_diseño_observer/producto.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.i
-.PHONY : patron_de_diseño_observer/producto.cpp.i
+Pruebas_de_la_progra_1/SmartPtr.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.i
+.PHONY : Pruebas_de_la_progra_1/SmartPtr.cpp.i
 
-patron_de_diseño_observer/producto.s: patron_de_diseño_observer/producto.cpp.s
+Pruebas_de_la_progra_1/SmartPtr.s: Pruebas_de_la_progra_1/SmartPtr.cpp.s
 
-.PHONY : patron_de_diseño_observer/producto.s
+.PHONY : Pruebas_de_la_progra_1/SmartPtr.s
 
 # target to generate assembly for a file
-patron_de_diseño_observer/producto.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.s
-.PHONY : patron_de_diseño_observer/producto.cpp.s
+Pruebas_de_la_progra_1/SmartPtr.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.s
+.PHONY : Pruebas_de_la_progra_1/SmartPtr.cpp.s
+
+mainSmart.o: mainSmart.cpp.o
+
+.PHONY : mainSmart.o
+
+# target to build an object file
+mainSmart.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o
+.PHONY : mainSmart.cpp.o
+
+mainSmart.i: mainSmart.cpp.i
+
+.PHONY : mainSmart.i
+
+# target to preprocess a source file
+mainSmart.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.i
+.PHONY : mainSmart.cpp.i
+
+mainSmart.s: mainSmart.cpp.s
+
+.PHONY : mainSmart.s
+
+# target to generate assembly for a file
+mainSmart.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.s
+.PHONY : mainSmart.cpp.s
 
 # Help Target
 help:
@@ -294,24 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Datos_2___2_0"
 	@echo "... edit_cache"
-	@echo "... Adapter_Pattern/Adapter.o"
-	@echo "... Adapter_Pattern/Adapter.i"
-	@echo "... Adapter_Pattern/Adapter.s"
-	@echo "... Adapter_Pattern/Blender.o"
-	@echo "... Adapter_Pattern/Blender.i"
-	@echo "... Adapter_Pattern/Blender.s"
-	@echo "... Adapter_Pattern/Socket.o"
-	@echo "... Adapter_Pattern/Socket.i"
-	@echo "... Adapter_Pattern/Socket.s"
-	@echo "... mainAdapter.o"
-	@echo "... mainAdapter.i"
-	@echo "... mainAdapter.s"
-	@echo "... patron_de_diseño_observer/libreria.o"
-	@echo "... patron_de_diseño_observer/libreria.i"
-	@echo "... patron_de_diseño_observer/libreria.s"
-	@echo "... patron_de_diseño_observer/producto.o"
-	@echo "... patron_de_diseño_observer/producto.i"
-	@echo "... patron_de_diseño_observer/producto.s"
+	@echo "... Pruebas_de_la_progra_1/GBCollector.o"
+	@echo "... Pruebas_de_la_progra_1/GBCollector.i"
+	@echo "... Pruebas_de_la_progra_1/GBCollector.s"
+	@echo "... Pruebas_de_la_progra_1/Hash.o"
+	@echo "... Pruebas_de_la_progra_1/Hash.i"
+	@echo "... Pruebas_de_la_progra_1/Hash.s"
+	@echo "... Pruebas_de_la_progra_1/LinkedList.o"
+	@echo "... Pruebas_de_la_progra_1/LinkedList.i"
+	@echo "... Pruebas_de_la_progra_1/LinkedList.s"
+	@echo "... Pruebas_de_la_progra_1/Node.o"
+	@echo "... Pruebas_de_la_progra_1/Node.i"
+	@echo "... Pruebas_de_la_progra_1/Node.s"
+	@echo "... Pruebas_de_la_progra_1/SmartPtr.o"
+	@echo "... Pruebas_de_la_progra_1/SmartPtr.i"
+	@echo "... Pruebas_de_la_progra_1/SmartPtr.s"
+	@echo "... mainSmart.o"
+	@echo "... mainSmart.i"
+	@echo "... mainSmart.s"
 .PHONY : help
 
 
