@@ -4,12 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Adapter.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.o"
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Blender.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.o"
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Socket.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.o"
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/mainAdapter.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.o"
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/libreria.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o"
-  "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/producto.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o"
+  "/home/aldo/CLionProjects/Datos 2 - 2.0/Pruebas de la progra 1/Gen_id.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o"
+  "/home/aldo/CLionProjects/Datos 2 - 2.0/main.cpp" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

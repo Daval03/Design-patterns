@@ -123,167 +123,59 @@ Datos_2___2_0/fast:
 	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/build
 .PHONY : Datos_2___2_0/fast
 
-Adapter_Pattern/Adapter.o: Adapter_Pattern/Adapter.cpp.o
+Pruebas_de_la_progra_1/Gen_id.o: Pruebas_de_la_progra_1/Gen_id.cpp.o
 
-.PHONY : Adapter_Pattern/Adapter.o
-
-# target to build an object file
-Adapter_Pattern/Adapter.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.o
-.PHONY : Adapter_Pattern/Adapter.cpp.o
-
-Adapter_Pattern/Adapter.i: Adapter_Pattern/Adapter.cpp.i
-
-.PHONY : Adapter_Pattern/Adapter.i
-
-# target to preprocess a source file
-Adapter_Pattern/Adapter.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.i
-.PHONY : Adapter_Pattern/Adapter.cpp.i
-
-Adapter_Pattern/Adapter.s: Adapter_Pattern/Adapter.cpp.s
-
-.PHONY : Adapter_Pattern/Adapter.s
-
-# target to generate assembly for a file
-Adapter_Pattern/Adapter.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.s
-.PHONY : Adapter_Pattern/Adapter.cpp.s
-
-Adapter_Pattern/Blender.o: Adapter_Pattern/Blender.cpp.o
-
-.PHONY : Adapter_Pattern/Blender.o
+.PHONY : Pruebas_de_la_progra_1/Gen_id.o
 
 # target to build an object file
-Adapter_Pattern/Blender.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.o
-.PHONY : Adapter_Pattern/Blender.cpp.o
+Pruebas_de_la_progra_1/Gen_id.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o
+.PHONY : Pruebas_de_la_progra_1/Gen_id.cpp.o
 
-Adapter_Pattern/Blender.i: Adapter_Pattern/Blender.cpp.i
+Pruebas_de_la_progra_1/Gen_id.i: Pruebas_de_la_progra_1/Gen_id.cpp.i
 
-.PHONY : Adapter_Pattern/Blender.i
+.PHONY : Pruebas_de_la_progra_1/Gen_id.i
 
 # target to preprocess a source file
-Adapter_Pattern/Blender.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.i
-.PHONY : Adapter_Pattern/Blender.cpp.i
+Pruebas_de_la_progra_1/Gen_id.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.i
+.PHONY : Pruebas_de_la_progra_1/Gen_id.cpp.i
 
-Adapter_Pattern/Blender.s: Adapter_Pattern/Blender.cpp.s
+Pruebas_de_la_progra_1/Gen_id.s: Pruebas_de_la_progra_1/Gen_id.cpp.s
 
-.PHONY : Adapter_Pattern/Blender.s
+.PHONY : Pruebas_de_la_progra_1/Gen_id.s
 
 # target to generate assembly for a file
-Adapter_Pattern/Blender.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.s
-.PHONY : Adapter_Pattern/Blender.cpp.s
+Pruebas_de_la_progra_1/Gen_id.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.s
+.PHONY : Pruebas_de_la_progra_1/Gen_id.cpp.s
 
-Adapter_Pattern/Socket.o: Adapter_Pattern/Socket.cpp.o
+main.o: main.cpp.o
 
-.PHONY : Adapter_Pattern/Socket.o
+.PHONY : main.o
 
 # target to build an object file
-Adapter_Pattern/Socket.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.o
-.PHONY : Adapter_Pattern/Socket.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-Adapter_Pattern/Socket.i: Adapter_Pattern/Socket.cpp.i
+main.i: main.cpp.i
 
-.PHONY : Adapter_Pattern/Socket.i
-
-# target to preprocess a source file
-Adapter_Pattern/Socket.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.i
-.PHONY : Adapter_Pattern/Socket.cpp.i
-
-Adapter_Pattern/Socket.s: Adapter_Pattern/Socket.cpp.s
-
-.PHONY : Adapter_Pattern/Socket.s
-
-# target to generate assembly for a file
-Adapter_Pattern/Socket.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.s
-.PHONY : Adapter_Pattern/Socket.cpp.s
-
-mainAdapter.o: mainAdapter.cpp.o
-
-.PHONY : mainAdapter.o
-
-# target to build an object file
-mainAdapter.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.o
-.PHONY : mainAdapter.cpp.o
-
-mainAdapter.i: mainAdapter.cpp.i
-
-.PHONY : mainAdapter.i
+.PHONY : main.i
 
 # target to preprocess a source file
-mainAdapter.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.i
-.PHONY : mainAdapter.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-mainAdapter.s: mainAdapter.cpp.s
+main.s: main.cpp.s
 
-.PHONY : mainAdapter.s
-
-# target to generate assembly for a file
-mainAdapter.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.s
-.PHONY : mainAdapter.cpp.s
-
-patron_de_diseño_observer/libreria.o: patron_de_diseño_observer/libreria.cpp.o
-
-.PHONY : patron_de_diseño_observer/libreria.o
-
-# target to build an object file
-patron_de_diseño_observer/libreria.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o
-.PHONY : patron_de_diseño_observer/libreria.cpp.o
-
-patron_de_diseño_observer/libreria.i: patron_de_diseño_observer/libreria.cpp.i
-
-.PHONY : patron_de_diseño_observer/libreria.i
-
-# target to preprocess a source file
-patron_de_diseño_observer/libreria.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.i
-.PHONY : patron_de_diseño_observer/libreria.cpp.i
-
-patron_de_diseño_observer/libreria.s: patron_de_diseño_observer/libreria.cpp.s
-
-.PHONY : patron_de_diseño_observer/libreria.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-patron_de_diseño_observer/libreria.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.s
-.PHONY : patron_de_diseño_observer/libreria.cpp.s
-
-patron_de_diseño_observer/producto.o: patron_de_diseño_observer/producto.cpp.o
-
-.PHONY : patron_de_diseño_observer/producto.o
-
-# target to build an object file
-patron_de_diseño_observer/producto.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o
-.PHONY : patron_de_diseño_observer/producto.cpp.o
-
-patron_de_diseño_observer/producto.i: patron_de_diseño_observer/producto.cpp.i
-
-.PHONY : patron_de_diseño_observer/producto.i
-
-# target to preprocess a source file
-patron_de_diseño_observer/producto.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.i
-.PHONY : patron_de_diseño_observer/producto.cpp.i
-
-patron_de_diseño_observer/producto.s: patron_de_diseño_observer/producto.cpp.s
-
-.PHONY : patron_de_diseño_observer/producto.s
-
-# target to generate assembly for a file
-patron_de_diseño_observer/producto.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.s
-.PHONY : patron_de_diseño_observer/producto.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -294,24 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Datos_2___2_0"
 	@echo "... edit_cache"
-	@echo "... Adapter_Pattern/Adapter.o"
-	@echo "... Adapter_Pattern/Adapter.i"
-	@echo "... Adapter_Pattern/Adapter.s"
-	@echo "... Adapter_Pattern/Blender.o"
-	@echo "... Adapter_Pattern/Blender.i"
-	@echo "... Adapter_Pattern/Blender.s"
-	@echo "... Adapter_Pattern/Socket.o"
-	@echo "... Adapter_Pattern/Socket.i"
-	@echo "... Adapter_Pattern/Socket.s"
-	@echo "... mainAdapter.o"
-	@echo "... mainAdapter.i"
-	@echo "... mainAdapter.s"
-	@echo "... patron_de_diseño_observer/libreria.o"
-	@echo "... patron_de_diseño_observer/libreria.i"
-	@echo "... patron_de_diseño_observer/libreria.s"
-	@echo "... patron_de_diseño_observer/producto.o"
-	@echo "... patron_de_diseño_observer/producto.i"
-	@echo "... patron_de_diseño_observer/producto.s"
+	@echo "... Pruebas_de_la_progra_1/Gen_id.o"
+	@echo "... Pruebas_de_la_progra_1/Gen_id.i"
+	@echo "... Pruebas_de_la_progra_1/Gen_id.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

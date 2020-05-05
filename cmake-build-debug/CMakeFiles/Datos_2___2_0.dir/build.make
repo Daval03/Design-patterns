@@ -57,105 +57,45 @@ include CMakeFiles/Datos_2___2_0.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Datos_2___2_0.dir/flags.make
 
-CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
-CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.o: ../mainAdapter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.o -c "/home/aldo/CLionProjects/Datos 2 - 2.0/mainAdapter.cpp"
+CMakeFiles/Datos_2___2_0.dir/main.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
+CMakeFiles/Datos_2___2_0.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Datos_2___2_0.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/main.cpp.o -c "/home/aldo/CLionProjects/Datos 2 - 2.0/main.cpp"
 
-CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aldo/CLionProjects/Datos 2 - 2.0/mainAdapter.cpp" > CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.i
+CMakeFiles/Datos_2___2_0.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aldo/CLionProjects/Datos 2 - 2.0/main.cpp" > CMakeFiles/Datos_2___2_0.dir/main.cpp.i
 
-CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aldo/CLionProjects/Datos 2 - 2.0/mainAdapter.cpp" -o CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.s
+CMakeFiles/Datos_2___2_0.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aldo/CLionProjects/Datos 2 - 2.0/main.cpp" -o CMakeFiles/Datos_2___2_0.dir/main.cpp.s
 
-CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
-CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o: ../patron\ de\ diseño\ observer/producto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o -c "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/producto.cpp"
+CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
+CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Gen_id.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o -c "/home/aldo/CLionProjects/Datos 2 - 2.0/Pruebas de la progra 1/Gen_id.cpp"
 
-CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/producto.cpp" > CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.i
+CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aldo/CLionProjects/Datos 2 - 2.0/Pruebas de la progra 1/Gen_id.cpp" > CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.i
 
-CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/producto.cpp" -o CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.s
-
-CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
-CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o: ../patron\ de\ diseño\ observer/libreria.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o -c "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/libreria.cpp"
-
-CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/libreria.cpp" > CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.i
-
-CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/libreria.cpp" -o CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.s
-
-CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
-CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.o: ../Adapter\ Pattern/Socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.o -c "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Socket.cpp"
-
-CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Socket.cpp" > CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.i
-
-CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Socket.cpp" -o CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.s
-
-CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
-CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.o: ../Adapter\ Pattern/Adapter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.o -c "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Adapter.cpp"
-
-CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Adapter.cpp" > CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.i
-
-CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Adapter.cpp" -o CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.s
-
-CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
-CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.o: ../Adapter\ Pattern/Blender.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.o -c "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Blender.cpp"
-
-CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Blender.cpp" > CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.i
-
-CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Blender.cpp" -o CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.s
+CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aldo/CLionProjects/Datos 2 - 2.0/Pruebas de la progra 1/Gen_id.cpp" -o CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.s
 
 # Object files for target Datos_2___2_0
 Datos_2___2_0_OBJECTS = \
-"CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.o" \
-"CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o" \
-"CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o" \
-"CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.o" \
-"CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.o" \
-"CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.o"
+"CMakeFiles/Datos_2___2_0.dir/main.cpp.o" \
+"CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o"
 
 # External object files for target Datos_2___2_0
 Datos_2___2_0_EXTERNAL_OBJECTS =
 
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/mainAdapter.cpp.o
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/producto.cpp.o
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/patron_de_diseño_observer/libreria.cpp.o
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Socket.cpp.o
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Adapter.cpp.o
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/Adapter_Pattern/Blender.cpp.o
+Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/main.cpp.o
+Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o
 Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/build.make
 Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Datos_2___2_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Datos_2___2_0"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Datos_2___2_0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

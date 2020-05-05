@@ -84,49 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Adapter.cpp">
+		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/Pruebas de la progra 1/Gen_id.cpp">
 			<Option target="Datos_2___2_0"/>
 		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Adapter.h">
+		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/Pruebas de la progra 1/Gen_id.h++">
 			<Option target="Datos_2___2_0"/>
 		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Blender.cpp">
+		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/Pruebas de la progra 1/SmartPtr.h++">
 			<Option target="Datos_2___2_0"/>
 		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Blender.h">
-			<Option target="Datos_2___2_0"/>
-		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/CRSocketInterface.h">
-			<Option target="Datos_2___2_0"/>
-		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/EuropeanSocketInterface.h">
-			<Option target="Datos_2___2_0"/>
-		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Socket.cpp">
-			<Option target="Datos_2___2_0"/>
-		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/Adapter Pattern/Socket.h">
-			<Option target="Datos_2___2_0"/>
-		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/mainAdapter.cpp">
-			<Option target="Datos_2___2_0"/>
-		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/Observer.h++">
-			<Option target="Datos_2___2_0"/>
-		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/Subject.h++">
-			<Option target="Datos_2___2_0"/>
-		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/libreria.cpp">
-			<Option target="Datos_2___2_0"/>
-		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/libreria.h++">
-			<Option target="Datos_2___2_0"/>
-		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/producto.cpp">
-			<Option target="Datos_2___2_0"/>
-		</Unit>
-		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/patron de diseño observer/producto.h++">
+		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/main.cpp">
 			<Option target="Datos_2___2_0"/>
 		</Unit>
 		<Unit filename="/home/aldo/CLionProjects/Datos 2 - 2.0/CMakeLists.txt">

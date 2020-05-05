@@ -1,25 +1,22 @@
-//
-// Created by aldo on 31/3/20.
-//
-
 #ifndef DATOS_2___2_0_SMARTPTR_H
 #define DATOS_2___2_0_SMARTPTR_H
-
 #include<iostream>
+#include "Gen_id.h++"
 using namespace std;
 template <class T>
-class SmartPtr {
+class SmartPtr{
+private:
+    Gen_id GID;
+    int id=GID.Generate_id();
     T *ptr;
 public:
-//    explicit SmartPtr(T *p = NULL);
-//    ~SmartPtr();
-//    T & operator * ();
-//    T * operator -> ();
     explicit SmartPtr(T *p = NULL) { ptr = p; }
     ~SmartPtr() { delete(ptr); }
     T & operator * () {  return *ptr; }
     T * operator -> () { return ptr; }
-    T& operator =(const T &valor);
+    SmartPtr operator =(SmartPtr *obj){
+        ptr=obj;
+    }
 };
 
 
