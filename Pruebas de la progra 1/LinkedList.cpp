@@ -3,7 +3,12 @@
 //check if our list is currently empty
 template<class T>
 bool LinkedList<T>::isEmpty() {
-    return (!first);
+    return (length==0);
+}
+
+template<class T>
+int LinkedList<T>::size() {
+    return length;
 }
 
 template<class T>
@@ -24,13 +29,13 @@ void LinkedList<T>::add(T data) {
             first->next = last;
         } else {
             // The list has more than one element
-            node<T> *insdata = new node<T>;
+            auto* insdata = new node<T>;
             insdata->data = data;
             insdata->next = NULL;
             last->next = insdata;
             last = insdata;
         }
-    }
+    }length++;
 }
 
 template<class T>
@@ -54,9 +59,54 @@ T LinkedList<T>::operator[](int index) {
 }
 
 
+template<class T>
+void LinkedList<T>::removeByName(int key) {
+    if (isEmpty()) {
+        cout << "The list is empty" << endl;
+    } else if (first->data == key){
+        node<T>* current = first;
+        first = first->next;
+        delete current;
+        length--;
+    }else{
+        node<T>* previous = first;
+        node<T>* current = first->next;
+        while(current != last) {
+            if(current->data == key) {
+                break;
+            }
+            else {
+                previous = current;
+                current = current->next;
+            }
+        }
+        if (current == last) {
+            if (current->data != key) {
+                cout << "Can't remove list_value: no match found.\n";
+                return;
+            } else {
+                first, last = NULL;
+                delete current;
+                this->length--;
+            }
+        } else{
+            previous->next = current->next;
+            delete current;
+            this->length--;
+        }
+    }
+}
 
-
-
-
-
-
+template<class T>
+void LinkedList<T>::print() {
+    if (isEmpty()) {
+        cout << "[]" << endl;
+        return;
+    }
+    node<T> *curr = first;
+    cout << "_List" << endl <<"[ ";
+    for (int i = 0; i < length; ++i) {
+        cout << curr->data << " ";
+        curr = curr->next;
+    }cout << "]" <<endl <<endl;
+}

@@ -11,6 +11,9 @@ struct Bucket {
     K key;
     V val;
     Bucket(const K &k, const V &v) : val(v), key(k) {}
+    void print(){
+        cout << "Bucket\t"<< key << "\t" << val << endl;
+    }
 };
 
 
