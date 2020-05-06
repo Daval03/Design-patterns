@@ -177,32 +177,32 @@ Pruebas_de_la_progra_1/Gen_id.cpp.s:
 	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.s
 .PHONY : Pruebas_de_la_progra_1/Gen_id.cpp.s
 
-Pruebas_de_la_progra_1/Hash.o: Pruebas_de_la_progra_1/Hash.cpp.o
+Pruebas_de_la_progra_1/HashTable.o: Pruebas_de_la_progra_1/HashTable.cpp.o
 
-.PHONY : Pruebas_de_la_progra_1/Hash.o
+.PHONY : Pruebas_de_la_progra_1/HashTable.o
 
 # target to build an object file
-Pruebas_de_la_progra_1/Hash.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Hash.cpp.o
-.PHONY : Pruebas_de_la_progra_1/Hash.cpp.o
+Pruebas_de_la_progra_1/HashTable.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.o
+.PHONY : Pruebas_de_la_progra_1/HashTable.cpp.o
 
-Pruebas_de_la_progra_1/Hash.i: Pruebas_de_la_progra_1/Hash.cpp.i
+Pruebas_de_la_progra_1/HashTable.i: Pruebas_de_la_progra_1/HashTable.cpp.i
 
-.PHONY : Pruebas_de_la_progra_1/Hash.i
+.PHONY : Pruebas_de_la_progra_1/HashTable.i
 
 # target to preprocess a source file
-Pruebas_de_la_progra_1/Hash.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Hash.cpp.i
-.PHONY : Pruebas_de_la_progra_1/Hash.cpp.i
+Pruebas_de_la_progra_1/HashTable.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.i
+.PHONY : Pruebas_de_la_progra_1/HashTable.cpp.i
 
-Pruebas_de_la_progra_1/Hash.s: Pruebas_de_la_progra_1/Hash.cpp.s
+Pruebas_de_la_progra_1/HashTable.s: Pruebas_de_la_progra_1/HashTable.cpp.s
 
-.PHONY : Pruebas_de_la_progra_1/Hash.s
+.PHONY : Pruebas_de_la_progra_1/HashTable.s
 
 # target to generate assembly for a file
-Pruebas_de_la_progra_1/Hash.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Hash.cpp.s
-.PHONY : Pruebas_de_la_progra_1/Hash.cpp.s
+Pruebas_de_la_progra_1/HashTable.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.s
+.PHONY : Pruebas_de_la_progra_1/HashTable.cpp.s
 
 Pruebas_de_la_progra_1/LinkedList.o: Pruebas_de_la_progra_1/LinkedList.cpp.o
 
@@ -300,9 +300,9 @@ help:
 	@echo "... Pruebas_de_la_progra_1/Gen_id.o"
 	@echo "... Pruebas_de_la_progra_1/Gen_id.i"
 	@echo "... Pruebas_de_la_progra_1/Gen_id.s"
-	@echo "... Pruebas_de_la_progra_1/Hash.o"
-	@echo "... Pruebas_de_la_progra_1/Hash.i"
-	@echo "... Pruebas_de_la_progra_1/Hash.s"
+	@echo "... Pruebas_de_la_progra_1/HashTable.o"
+	@echo "... Pruebas_de_la_progra_1/HashTable.i"
+	@echo "... Pruebas_de_la_progra_1/HashTable.s"
 	@echo "... Pruebas_de_la_progra_1/LinkedList.o"
 	@echo "... Pruebas_de_la_progra_1/LinkedList.i"
 	@echo "... Pruebas_de_la_progra_1/LinkedList.s"

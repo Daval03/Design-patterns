@@ -17,7 +17,12 @@ public:
     SmartPtr operator =(SmartPtr *obj){
         ptr=obj;
     }
+
+    int getID(){
+        return id;
+    }
 };
+
 
 
 #endif //DATOS_2___2_0_SMARTPTR_H

@@ -96,10 +96,13 @@
 		<Unit filename="/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/Gen_id.h++">
 			<Option target="Datos_2___2_0"/>
 		</Unit>
-		<Unit filename="/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/Hash.cpp">
+		<Unit filename="/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/Hash.h++">
 			<Option target="Datos_2___2_0"/>
 		</Unit>
-		<Unit filename="/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/Hash.h">
+		<Unit filename="/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/HashTable.cpp">
+			<Option target="Datos_2___2_0"/>
+		</Unit>
+		<Unit filename="/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/HashTable.h++">
 			<Option target="Datos_2___2_0"/>
 		</Unit>
 		<Unit filename="/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/LinkedList.cpp">

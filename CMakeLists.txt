@@ -15,15 +15,12 @@ set(CMAKE_CXX_STANDARD 14)
 #        "Adapter Pattern/Blender"
 #        )
 
-add_executable( Datos_2___2_0 mainSmart.cpp
+add_executable( Datos_2___2_0
         "Pruebas de la progra 1/SmartPtr.h++"
         "Pruebas de la progra 1/SmartPtr.cpp"
 
         "Pruebas de la progra 1/Gen_id.h++"
         "Pruebas de la progra 1/Gen_id.cpp"
-
-        "Pruebas de la progra 1/Hash.h"
-        "Pruebas de la progra 1/Hash.cpp"
 
         "Pruebas de la progra 1/GBCollector.h"
         "Pruebas de la progra 1/GBCollector.cpp"
@@ -31,7 +28,11 @@ add_executable( Datos_2___2_0 mainSmart.cpp
         "Pruebas de la progra 1/LinkedList.h"
         "Pruebas de la progra 1/LinkedList.cpp"
 
-        )
+        "Pruebas de la progra 1/Hash.h++"
+        "Pruebas de la progra 1/HashTable.h++"
+        "Pruebas de la progra 1/HashTable.cpp"
+
+        mainSmart.cpp)
 
 
 

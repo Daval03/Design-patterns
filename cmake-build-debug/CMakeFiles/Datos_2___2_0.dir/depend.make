@@ -7,10 +7,9 @@ CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.o: ../Prueba
 CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Gen_id.cpp
 CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Gen_id.h++
 
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Hash.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Gen_id.h++
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Hash.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Hash.cpp
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Hash.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Hash.h
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Hash.cpp.o: ../Pruebas\ de\ la\ progra\ 1/SmartPtr.h++
+CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Hash.h++
+CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.o: ../Pruebas\ de\ la\ progra\ 1/HashTable.cpp
+CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.o: ../Pruebas\ de\ la\ progra\ 1/HashTable.h++
 
 CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o: ../Pruebas\ de\ la\ progra\ 1/LinkedList.cpp
 CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o: ../Pruebas\ de\ la\ progra\ 1/LinkedList.h
@@ -19,8 +18,11 @@ CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o: ../Pruebas\ 
 CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o: ../Pruebas\ de\ la\ progra\ 1/SmartPtr.cpp
 CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o: ../Pruebas\ de\ la\ progra\ 1/SmartPtr.h++
 
+CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/GBCollector.h
 CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Gen_id.h++
-CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Hash.h
+CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Hash.h++
+CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/HashTable.cpp
+CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/HashTable.h++
 CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/LinkedList.cpp
 CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/LinkedList.h
 CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../Pruebas\ de\ la\ progra\ 1/SmartPtr.h++
