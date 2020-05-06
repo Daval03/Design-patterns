@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/aldo/Descargas/clion-2019.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/103/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/aldo/Descargas/clion-2019.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/103/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/aldo/CLionProjects/Datos 2 - 2.0"
+CMAKE_SOURCE_DIR = /home/shakime/Desktop/CodeWorks/Design-patterns
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug"
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/aldo/Descargas/clion-2019.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/103/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/aldo/Descargas/clion-2019.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/103/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aldo/CLionProjects/Datos 2 - 2.0/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,33 @@ Pruebas_de_la_progra_1/GBCollector.s: Pruebas_de_la_progra_1/GBCollector.cpp.s
 Pruebas_de_la_progra_1/GBCollector.cpp.s:
 	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.s
 .PHONY : Pruebas_de_la_progra_1/GBCollector.cpp.s
+
+Pruebas_de_la_progra_1/Gen_id.o: Pruebas_de_la_progra_1/Gen_id.cpp.o
+
+.PHONY : Pruebas_de_la_progra_1/Gen_id.o
+
+# target to build an object file
+Pruebas_de_la_progra_1/Gen_id.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o
+.PHONY : Pruebas_de_la_progra_1/Gen_id.cpp.o
+
+Pruebas_de_la_progra_1/Gen_id.i: Pruebas_de_la_progra_1/Gen_id.cpp.i
+
+.PHONY : Pruebas_de_la_progra_1/Gen_id.i
+
+# target to preprocess a source file
+Pruebas_de_la_progra_1/Gen_id.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.i
+.PHONY : Pruebas_de_la_progra_1/Gen_id.cpp.i
+
+Pruebas_de_la_progra_1/Gen_id.s: Pruebas_de_la_progra_1/Gen_id.cpp.s
+
+.PHONY : Pruebas_de_la_progra_1/Gen_id.s
+
+# target to generate assembly for a file
+Pruebas_de_la_progra_1/Gen_id.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.s
+.PHONY : Pruebas_de_la_progra_1/Gen_id.cpp.s
 
 Pruebas_de_la_progra_1/Hash.o: Pruebas_de_la_progra_1/Hash.cpp.o
 
@@ -270,6 +297,9 @@ help:
 	@echo "... Pruebas_de_la_progra_1/GBCollector.o"
 	@echo "... Pruebas_de_la_progra_1/GBCollector.i"
 	@echo "... Pruebas_de_la_progra_1/GBCollector.s"
+	@echo "... Pruebas_de_la_progra_1/Gen_id.o"
+	@echo "... Pruebas_de_la_progra_1/Gen_id.i"
+	@echo "... Pruebas_de_la_progra_1/Gen_id.s"
 	@echo "... Pruebas_de_la_progra_1/Hash.o"
 	@echo "... Pruebas_de_la_progra_1/Hash.i"
 	@echo "... Pruebas_de_la_progra_1/Hash.s"
