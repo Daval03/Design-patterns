@@ -123,167 +123,32 @@ Datos_2___2_0/fast:
 	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/build
 .PHONY : Datos_2___2_0/fast
 
-Pruebas_de_la_progra_1/GBCollector.o: Pruebas_de_la_progra_1/GBCollector.cpp.o
+mainVSPtr.o: mainVSPtr.cpp.o
 
-.PHONY : Pruebas_de_la_progra_1/GBCollector.o
-
-# target to build an object file
-Pruebas_de_la_progra_1/GBCollector.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.o
-.PHONY : Pruebas_de_la_progra_1/GBCollector.cpp.o
-
-Pruebas_de_la_progra_1/GBCollector.i: Pruebas_de_la_progra_1/GBCollector.cpp.i
-
-.PHONY : Pruebas_de_la_progra_1/GBCollector.i
-
-# target to preprocess a source file
-Pruebas_de_la_progra_1/GBCollector.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.i
-.PHONY : Pruebas_de_la_progra_1/GBCollector.cpp.i
-
-Pruebas_de_la_progra_1/GBCollector.s: Pruebas_de_la_progra_1/GBCollector.cpp.s
-
-.PHONY : Pruebas_de_la_progra_1/GBCollector.s
-
-# target to generate assembly for a file
-Pruebas_de_la_progra_1/GBCollector.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.s
-.PHONY : Pruebas_de_la_progra_1/GBCollector.cpp.s
-
-Pruebas_de_la_progra_1/Gen_id.o: Pruebas_de_la_progra_1/Gen_id.cpp.o
-
-.PHONY : Pruebas_de_la_progra_1/Gen_id.o
+.PHONY : mainVSPtr.o
 
 # target to build an object file
-Pruebas_de_la_progra_1/Gen_id.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o
-.PHONY : Pruebas_de_la_progra_1/Gen_id.cpp.o
+mainVSPtr.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o
+.PHONY : mainVSPtr.cpp.o
 
-Pruebas_de_la_progra_1/Gen_id.i: Pruebas_de_la_progra_1/Gen_id.cpp.i
+mainVSPtr.i: mainVSPtr.cpp.i
 
-.PHONY : Pruebas_de_la_progra_1/Gen_id.i
-
-# target to preprocess a source file
-Pruebas_de_la_progra_1/Gen_id.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.i
-.PHONY : Pruebas_de_la_progra_1/Gen_id.cpp.i
-
-Pruebas_de_la_progra_1/Gen_id.s: Pruebas_de_la_progra_1/Gen_id.cpp.s
-
-.PHONY : Pruebas_de_la_progra_1/Gen_id.s
-
-# target to generate assembly for a file
-Pruebas_de_la_progra_1/Gen_id.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.s
-.PHONY : Pruebas_de_la_progra_1/Gen_id.cpp.s
-
-Pruebas_de_la_progra_1/HashTable.o: Pruebas_de_la_progra_1/HashTable.cpp.o
-
-.PHONY : Pruebas_de_la_progra_1/HashTable.o
-
-# target to build an object file
-Pruebas_de_la_progra_1/HashTable.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.o
-.PHONY : Pruebas_de_la_progra_1/HashTable.cpp.o
-
-Pruebas_de_la_progra_1/HashTable.i: Pruebas_de_la_progra_1/HashTable.cpp.i
-
-.PHONY : Pruebas_de_la_progra_1/HashTable.i
+.PHONY : mainVSPtr.i
 
 # target to preprocess a source file
-Pruebas_de_la_progra_1/HashTable.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.i
-.PHONY : Pruebas_de_la_progra_1/HashTable.cpp.i
+mainVSPtr.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.i
+.PHONY : mainVSPtr.cpp.i
 
-Pruebas_de_la_progra_1/HashTable.s: Pruebas_de_la_progra_1/HashTable.cpp.s
+mainVSPtr.s: mainVSPtr.cpp.s
 
-.PHONY : Pruebas_de_la_progra_1/HashTable.s
-
-# target to generate assembly for a file
-Pruebas_de_la_progra_1/HashTable.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.s
-.PHONY : Pruebas_de_la_progra_1/HashTable.cpp.s
-
-Pruebas_de_la_progra_1/LinkedList.o: Pruebas_de_la_progra_1/LinkedList.cpp.o
-
-.PHONY : Pruebas_de_la_progra_1/LinkedList.o
-
-# target to build an object file
-Pruebas_de_la_progra_1/LinkedList.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o
-.PHONY : Pruebas_de_la_progra_1/LinkedList.cpp.o
-
-Pruebas_de_la_progra_1/LinkedList.i: Pruebas_de_la_progra_1/LinkedList.cpp.i
-
-.PHONY : Pruebas_de_la_progra_1/LinkedList.i
-
-# target to preprocess a source file
-Pruebas_de_la_progra_1/LinkedList.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.i
-.PHONY : Pruebas_de_la_progra_1/LinkedList.cpp.i
-
-Pruebas_de_la_progra_1/LinkedList.s: Pruebas_de_la_progra_1/LinkedList.cpp.s
-
-.PHONY : Pruebas_de_la_progra_1/LinkedList.s
+.PHONY : mainVSPtr.s
 
 # target to generate assembly for a file
-Pruebas_de_la_progra_1/LinkedList.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.s
-.PHONY : Pruebas_de_la_progra_1/LinkedList.cpp.s
-
-Pruebas_de_la_progra_1/SmartPtr.o: Pruebas_de_la_progra_1/SmartPtr.cpp.o
-
-.PHONY : Pruebas_de_la_progra_1/SmartPtr.o
-
-# target to build an object file
-Pruebas_de_la_progra_1/SmartPtr.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o
-.PHONY : Pruebas_de_la_progra_1/SmartPtr.cpp.o
-
-Pruebas_de_la_progra_1/SmartPtr.i: Pruebas_de_la_progra_1/SmartPtr.cpp.i
-
-.PHONY : Pruebas_de_la_progra_1/SmartPtr.i
-
-# target to preprocess a source file
-Pruebas_de_la_progra_1/SmartPtr.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.i
-.PHONY : Pruebas_de_la_progra_1/SmartPtr.cpp.i
-
-Pruebas_de_la_progra_1/SmartPtr.s: Pruebas_de_la_progra_1/SmartPtr.cpp.s
-
-.PHONY : Pruebas_de_la_progra_1/SmartPtr.s
-
-# target to generate assembly for a file
-Pruebas_de_la_progra_1/SmartPtr.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.s
-.PHONY : Pruebas_de_la_progra_1/SmartPtr.cpp.s
-
-mainSmart.o: mainSmart.cpp.o
-
-.PHONY : mainSmart.o
-
-# target to build an object file
-mainSmart.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o
-.PHONY : mainSmart.cpp.o
-
-mainSmart.i: mainSmart.cpp.i
-
-.PHONY : mainSmart.i
-
-# target to preprocess a source file
-mainSmart.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.i
-.PHONY : mainSmart.cpp.i
-
-mainSmart.s: mainSmart.cpp.s
-
-.PHONY : mainSmart.s
-
-# target to generate assembly for a file
-mainSmart.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.s
-.PHONY : mainSmart.cpp.s
+mainVSPtr.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.s
+.PHONY : mainVSPtr.cpp.s
 
 # Help Target
 help:
@@ -294,24 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Datos_2___2_0"
-	@echo "... Pruebas_de_la_progra_1/GBCollector.o"
-	@echo "... Pruebas_de_la_progra_1/GBCollector.i"
-	@echo "... Pruebas_de_la_progra_1/GBCollector.s"
-	@echo "... Pruebas_de_la_progra_1/Gen_id.o"
-	@echo "... Pruebas_de_la_progra_1/Gen_id.i"
-	@echo "... Pruebas_de_la_progra_1/Gen_id.s"
-	@echo "... Pruebas_de_la_progra_1/HashTable.o"
-	@echo "... Pruebas_de_la_progra_1/HashTable.i"
-	@echo "... Pruebas_de_la_progra_1/HashTable.s"
-	@echo "... Pruebas_de_la_progra_1/LinkedList.o"
-	@echo "... Pruebas_de_la_progra_1/LinkedList.i"
-	@echo "... Pruebas_de_la_progra_1/LinkedList.s"
-	@echo "... Pruebas_de_la_progra_1/SmartPtr.o"
-	@echo "... Pruebas_de_la_progra_1/SmartPtr.i"
-	@echo "... Pruebas_de_la_progra_1/SmartPtr.s"
-	@echo "... mainSmart.o"
-	@echo "... mainSmart.i"
-	@echo "... mainSmart.s"
+	@echo "... mainVSPtr.o"
+	@echo "... mainVSPtr.i"
+	@echo "... mainVSPtr.s"
 .PHONY : help
 
 

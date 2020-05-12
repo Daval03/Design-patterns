@@ -16,23 +16,15 @@ set(CMAKE_CXX_STANDARD 14)
 #        )
 
 add_executable( Datos_2___2_0
-        "Pruebas de la progra 1/SmartPtr.h++"
-        "Pruebas de la progra 1/SmartPtr.cpp"
+#        "P1/LinkedList.h++"
+        "P1/Set.h++"
+        "P1/VSPointer.h++"
+        "P1/GBCollector.h++"
+        "P1/HashTable.h++"
+        mainVSPtr.cpp
+        )
 
-        "Pruebas de la progra 1/Gen_id.h++"
-        "Pruebas de la progra 1/Gen_id.cpp"
 
-        "Pruebas de la progra 1/GBCollector.h"
-        "Pruebas de la progra 1/GBCollector.cpp"
-
-        "Pruebas de la progra 1/LinkedList.h"
-        "Pruebas de la progra 1/LinkedList.cpp"
-
-        "Pruebas de la progra 1/Hash.h++"
-        "Pruebas de la progra 1/HashTable.h++"
-        "Pruebas de la progra 1/HashTable.cpp"
-
-        mainSmart.cpp)
 
 
 

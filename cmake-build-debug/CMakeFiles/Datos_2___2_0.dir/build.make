@@ -57,105 +57,30 @@ include CMakeFiles/Datos_2___2_0.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Datos_2___2_0.dir/flags.make
 
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o: ../Pruebas\ de\ la\ progra\ 1/SmartPtr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o -c "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/SmartPtr.cpp"
+CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
+CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o: ../mainVSPtr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o -c /home/shakime/Desktop/CodeWorks/Design-patterns/mainVSPtr.cpp
 
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/SmartPtr.cpp" > CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.i
+CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shakime/Desktop/CodeWorks/Design-patterns/mainVSPtr.cpp > CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.i
 
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/SmartPtr.cpp" -o CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.s
-
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o: ../Pruebas\ de\ la\ progra\ 1/Gen_id.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o -c "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/Gen_id.cpp"
-
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/Gen_id.cpp" > CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.i
-
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/Gen_id.cpp" -o CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.s
-
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.o: ../Pruebas\ de\ la\ progra\ 1/GBCollector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.o -c "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/GBCollector.cpp"
-
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/GBCollector.cpp" > CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.i
-
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/GBCollector.cpp" -o CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.s
-
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o: ../Pruebas\ de\ la\ progra\ 1/LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o -c "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/LinkedList.cpp"
-
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/LinkedList.cpp" > CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.i
-
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/LinkedList.cpp" -o CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.s
-
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.o: ../Pruebas\ de\ la\ progra\ 1/HashTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.o -c "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/HashTable.cpp"
-
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/HashTable.cpp" > CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.i
-
-CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shakime/Desktop/CodeWorks/Design-patterns/Pruebas de la progra 1/HashTable.cpp" -o CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.s
-
-CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
-CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o: ../mainSmart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o -c /home/shakime/Desktop/CodeWorks/Design-patterns/mainSmart.cpp
-
-CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shakime/Desktop/CodeWorks/Design-patterns/mainSmart.cpp > CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.i
-
-CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shakime/Desktop/CodeWorks/Design-patterns/mainSmart.cpp -o CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.s
+CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shakime/Desktop/CodeWorks/Design-patterns/mainVSPtr.cpp -o CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.s
 
 # Object files for target Datos_2___2_0
 Datos_2___2_0_OBJECTS = \
-"CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o" \
-"CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o" \
-"CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.o" \
-"CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o" \
-"CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.o" \
-"CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o"
+"CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o"
 
 # External object files for target Datos_2___2_0
 Datos_2___2_0_EXTERNAL_OBJECTS =
 
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/SmartPtr.cpp.o
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/Gen_id.cpp.o
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/GBCollector.cpp.o
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/LinkedList.cpp.o
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/Pruebas_de_la_progra_1/HashTable.cpp.o
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/mainSmart.cpp.o
+Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o
 Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/build.make
 Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Datos_2___2_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Datos_2___2_0"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Datos_2___2_0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
