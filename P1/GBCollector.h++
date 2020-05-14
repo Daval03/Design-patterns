@@ -2,13 +2,25 @@
 #define DATOS_2___2_0_GBCOLLECTOR_H
 
 #include <map>
-#include "Set.h++"
+
 #include "HashTable.h++"
+#include "Set.h++"
+#include "VSPointer.h++"
+#include "CallBackTimer.h++"
+
+#include <cstdio>
+#include <cstdlib>
+#include <ctime>
+#include <unistd.h>
+#include <algorithm>
+
 
 class GBCollector {
 private:
-    GBCollector() {
-        cout << "[GBCollector]\tStarted!" << endl << endl;
+    GBCollector(){
+        cout << "[GBCollector]\tStarted...!\n---------------------------------------\n";
+//        CallBackTimer timer;
+//        timer.start(25, [this] { sweap(); });
     }
 
     static GBCollector *instance; //static class instance
@@ -16,6 +28,10 @@ private:
 public:
     /* Empty multimap container. HashTable for Sets elements */
     HashTable<string, Set*>* setMap = new HashTable<string, Set*>;
+    /* Vector of all VSPointers created */
+    vector<Set*>* generalSet = new vector<Set*>;
+    /* Vector of all T* ptr created */
+    vector<void*>* generalPtr = new vector<void*>;
 
     /**
      * Return reference to static instance o GBCollector.
@@ -30,6 +46,56 @@ public:
     int length() const {
         return setMap->length();
     }
+
+    /**
+     * Show elements of the garbage collector.
+     */
+    void print() const  {
+        cout << "\n[GBCollector]\tPrinting...!\n---------------------------------------";
+        vector<Set *> *everySet = setMap->everySet();
+        for (auto & i : *everySet) {
+            if (!i->pointingTo) {
+                i->toString();
+            }
+        }
+        cout << "---------------------------------------\n";
+    }
+
+    /**
+     * Free unused allocated memory.
+     */
+    void sweap() const{
+        cout<< "\n\n[GBCollector]\tSweaping...!\n---------------------------------------\n";
+        auto freed = new vector<void*>;
+        for(auto ptr : *generalPtr) {
+            int i = 0;
+            for (auto set : *generalSet){
+                if (ptr == set->vsData)
+                    i++;
+            }
+            if (i==0) {
+                free(ptr);
+                cout << "[GBCollector]\tFreed\t" << ptr << endl;
+            }
+        }
+        removePtr(freed);
+        cout << "---------------------------------------\n";
+    }
+
+    /**
+     * Remove freed ptr from the general ptr vector.
+     * @param freed
+     */
+    void removePtr(vector<void*>* freed) const{
+        for(int j=0; j < generalPtr->size(); j++){
+            for(auto free : *freed) {
+                if (free == generalPtr->at(j)){
+                    generalPtr->erase(generalPtr->begin() + j);
+                }
+            }
+        }
+    }
+
 
     /**
      * Returns true for original, false for ref.
@@ -123,6 +189,11 @@ public:
         }
     }
 
+    /**
+     * Updates the pointedTo attribute of the referrer Set and its references.
+     * @param pointed
+     * @param referrer
+     */
     void updateRefsPointTo(Set *pointed, Set *referrer) const{
         auto refVector = setMap->everySet();
         cout << "[Map-Info]\t\t" << referrer->id <<" has  "<< referrer->refsList->size() << "  references." << endl;
@@ -138,6 +209,12 @@ public:
         updatePointTo(pointed, referrer); //make the referrer point to pointed.
     }
 
+    /**
+     * Updates the referrer pointTo attribute to the pointed, if the pointed is referring to someone,
+     * updates pointTo to this one then.
+     * @param pointed
+     * @param referrer
+     */
     void updatePointTo(Set *pointed, Set *referrer) const {
 //        cout << "pt Pointed " << pointed->pointingTo << endl;
 //        cout << "pt Referrer " << referrer->pointingTo << endl;
@@ -170,14 +247,7 @@ public:
         cout << endl;
     }
 
-    void print() const  {
-        cout << "\n[GBCollector]\tPrinting!\n";
-        vector<Set *> *everySet = setMap->everySet();
-        for (auto & i : *everySet) {
-            if (!i->pointingTo)
-                i->toString();
-        }
-    }
+
 
 };
 

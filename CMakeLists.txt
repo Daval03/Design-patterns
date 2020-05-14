@@ -22,7 +22,7 @@ add_executable( Datos_2___2_0
         "P1/GBCollector.h++"
         "P1/HashTable.h++"
         mainVSPtr.cpp
-        )
+        P1/CallBackTimer.h++)
 
 
 

@@ -20,7 +20,6 @@ public:
     void** address;
 //    /* Pointer memory address */
 //    bool isNew;
-    Set* set;
 
 
     VSPointer()=default;
@@ -35,7 +34,10 @@ public:
         type = typeid(*ptr).name();
         id = "id" + to_string(gbCollector->length());
         address = (void **)this;
-        gbCollector->setMap->push(id, this->set=new Set(id, type, ptr, address)); //Wrap Set & push in map.
+        Set* set = new Set(id, type, ptr, address); //Wrap Set & push in map.
+        gbCollector->setMap->push(id, set); //push in map.
+        gbCollector->generalSet->push_back(set); //push in all set map.
+        gbCollector->generalPtr->push_back(ptr); //push in all T addresses.
     }
 
     void toString(){

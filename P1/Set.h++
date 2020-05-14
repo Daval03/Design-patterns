@@ -39,7 +39,7 @@ public:
      * Print the Set attributes.
      */
     void toString() const{
-        cout << "---------\n\tvs: " << id << endl
+        cout << "\n\tvs: " << id << endl
              << "\ttype: " << type << endl
              << "\trefAddress: " << getDataAddress() << endl
              << "\tpointTo: " << pointingTo << endl
@@ -49,6 +49,7 @@ public:
         for(int i = 0; i < refsList->size(); i++){
             cout << "\t"<< i+1 << ": " << refsList->at(i) << endl;
         }
+//        cout << "---------";
     }
 
     /**
