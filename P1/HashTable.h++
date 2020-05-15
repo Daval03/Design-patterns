@@ -105,6 +105,7 @@ public:
         vector<V>* v = getKeyVector(key);
         if (v == nullptr)
             return false;
+        int i = v->size();
         return (v->size() == 1);
     }
 

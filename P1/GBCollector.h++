@@ -2,28 +2,30 @@
 #define DATOS_2___2_0_GBCOLLECTOR_H
 
 #include <map>
-
+#include <thread>
 #include "HashTable.h++"
 #include "Set.h++"
-#include "VSPointer.h++"
-#include "CallBackTimer.h++"
-
-#include <cstdio>
-#include <cstdlib>
-#include <ctime>
-#include <unistd.h>
-#include <algorithm>
 
 
 class GBCollector {
 private:
+    /* static gbCollector instance. */
+    static GBCollector *instance;
+    /* Private Constructor */
     GBCollector(){
-        cout << "[GBCollector]\tStarted...!\n---------------------------------------\n";
-//        CallBackTimer timer;
-//        timer.start(25, [this] { sweap(); });
+        cout << "[GBCollector]\tStarted...!\n---------------------------------------\n";;
+        thread(&GBCollector::sweapThread,this).detach();
     }
 
-    static GBCollector *instance; //static class instance
+     /**
+     * Infinite loop for automatic sweaping memoryLeaks.
+     */
+     [[noreturn]] void sweapThread() const{
+        while(true){
+            this_thread::sleep_for (std::chrono::seconds(7));
+            sweapMemoryLeaks();
+        }
+    }
 
 public:
     /* Empty multimap container. HashTable for Sets elements */
@@ -64,36 +66,26 @@ public:
     /**
      * Free unused allocated memory.
      */
-    void sweap() const{
+    void sweapMemoryLeaks() const{
         cout<< "\n\n[GBCollector]\tSweaping...!\n---------------------------------------\n";
-        auto freed = new vector<void*>;
-        for(auto ptr : *generalPtr) {
-            int i = 0;
-            for (auto set : *generalSet){
-                if (ptr == set->vsData)
-                    i++;
-            }
-            if (i==0) {
-                free(ptr);
-                cout << "[GBCollector]\tFreed\t" << ptr << endl;
-            }
-        }
-        removePtr(freed);
-        cout << "---------------------------------------\n";
-    }
-
-    /**
-     * Remove freed ptr from the general ptr vector.
-     * @param freed
-     */
-    void removePtr(vector<void*>* freed) const{
-        for(int j=0; j < generalPtr->size(); j++){
-            for(auto free : *freed) {
-                if (free == generalPtr->at(j)){
-                    generalPtr->erase(generalPtr->begin() + j);
+        int leaksCounter = 0;
+        for(int a=0; a < generalPtr->size(); a++) {
+            bool alone = true;
+            for(auto & b : *generalSet) {
+                if (generalPtr->at(a) == b->vsData){
+                    alone = false;
                 }
             }
+            if (alone) {
+                auto memoryLeaked = generalPtr->at(a);
+                cout << "[GB-Thread]\t\tMemoryLeaks freed\t" << memoryLeaked << endl;
+                generalPtr->erase(generalPtr->begin() + a);
+                free(memoryLeaked);
+                leaksCounter++;
+            }
         }
+        cout << "[GB-Thread]\t\tMemoryLeaks found\t" << leaksCounter << endl;
+        cout << "---------------------------------------\n";
     }
 
 
@@ -109,7 +101,8 @@ public:
         }else { //not authentic
             Set* reference = getRef(id,address);
             if(reference != nullptr){
-                return true;
+
+                return false;
             }
         }return false;
     }

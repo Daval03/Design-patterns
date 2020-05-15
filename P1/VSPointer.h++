@@ -63,7 +63,7 @@ public:
      */
     ~VSPointer() {
         if(gbCollector->deletePtr(id, reinterpret_cast<void**>(this)))
-            delete (ptr);
+            free (ptr);
     }
 
     /**

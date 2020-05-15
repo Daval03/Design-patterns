@@ -226,6 +226,12 @@ Datos_2___2_0_BINARY_DIR:STATIC=/home/shakime/Desktop/CodeWorks/Design-patterns/
 //Value Computed by CMake
 Datos_2___2_0_SOURCE_DIR:STATIC=/home/shakime/Desktop/CodeWorks/Design-patterns
 
+//Value Computed by CMake
+Dynamic_Library_BINARY_DIR:STATIC=/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug
+
+//Value Computed by CMake
+Dynamic_Library_SOURCE_DIR:STATIC=/home/shakime/Desktop/CodeWorks/Design-patterns
+
 //Path to a program.
 ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 
@@ -323,6 +329,10 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
+//Have include pthread.h
+CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/shakime/Desktop/CodeWorks/Design-patterns
@@ -388,8 +398,12 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: ProcessorCount_cmd_nproc
 ProcessorCount_cmd_nproc-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
+//Result of TRY_COMPILE
+THREADS_HAVE_PTHREAD_ARG:INTERNAL=TRUE
 
