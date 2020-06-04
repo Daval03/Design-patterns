@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/112/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/112/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-d
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/112/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/114/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/112/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/114/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,6 +123,60 @@ Datos_2___2_0/fast:
 	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/build
 .PHONY : Datos_2___2_0/fast
 
+P1/GBCollector.o: P1/GBCollector.cpp.o
+
+.PHONY : P1/GBCollector.o
+
+# target to build an object file
+P1/GBCollector.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.o
+.PHONY : P1/GBCollector.cpp.o
+
+P1/GBCollector.i: P1/GBCollector.cpp.i
+
+.PHONY : P1/GBCollector.i
+
+# target to preprocess a source file
+P1/GBCollector.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.i
+.PHONY : P1/GBCollector.cpp.i
+
+P1/GBCollector.s: P1/GBCollector.cpp.s
+
+.PHONY : P1/GBCollector.s
+
+# target to generate assembly for a file
+P1/GBCollector.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.s
+.PHONY : P1/GBCollector.cpp.s
+
+P1/Set.o: P1/Set.cpp.o
+
+.PHONY : P1/Set.o
+
+# target to build an object file
+P1/Set.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/P1/Set.cpp.o
+.PHONY : P1/Set.cpp.o
+
+P1/Set.i: P1/Set.cpp.i
+
+.PHONY : P1/Set.i
+
+# target to preprocess a source file
+P1/Set.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/P1/Set.cpp.i
+.PHONY : P1/Set.cpp.i
+
+P1/Set.s: P1/Set.cpp.s
+
+.PHONY : P1/Set.s
+
+# target to generate assembly for a file
+P1/Set.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/P1/Set.cpp.s
+.PHONY : P1/Set.cpp.s
+
 mainVSPtr.o: mainVSPtr.cpp.o
 
 .PHONY : mainVSPtr.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Datos_2___2_0"
+	@echo "... P1/GBCollector.o"
+	@echo "... P1/GBCollector.i"
+	@echo "... P1/GBCollector.s"
+	@echo "... P1/Set.o"
+	@echo "... P1/Set.i"
+	@echo "... P1/Set.s"
 	@echo "... mainVSPtr.o"
 	@echo "... mainVSPtr.i"
 	@echo "... mainVSPtr.s"

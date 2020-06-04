@@ -12,7 +12,7 @@ struct node {
 };
 
 template<class T>
-class LinkedList
+class DATOS_2___2_0_LINKEDLIST_H LinkedList
 {
     node<T>* first;
     node<T>* last;
@@ -58,8 +58,9 @@ public:
             }
         }length++;
     }
+
     T operator[](int index) {
-        return get(index);
+        return at(index);
     }
 
     void removeByObject(T key) {
@@ -99,7 +100,34 @@ public:
         }
     }
 
-    T get(int index) {
+    void removeByInt(int i) {
+        if (isEmpty() || i > size() - 1) {
+            return;
+        }
+        if (size() == 1 && i == 0) {
+            last, first = NULL;
+        } else if (i==0){
+            first = first->next;
+        }else{
+            int j = 0;
+            node<T> *prev = first;
+            node<T> *current = first->next;
+            while (j+1 != i) {
+                prev = current;
+                current = current->next;
+                j++;
+            }
+            if (j == size() - 1) {
+                first, last = NULL;
+                delete current;
+            }else {
+                prev->next = current->next;
+            }
+        }
+        this->length--;
+    }
+
+    T at(int index) {
         if(index == 0) {
             // Get the first element
             return this->first->data;
@@ -127,10 +155,6 @@ public:
     }
 
 
-
 };
-
-
-
 
 #endif //DATOS_2___2_0_LINKEDLIST_H

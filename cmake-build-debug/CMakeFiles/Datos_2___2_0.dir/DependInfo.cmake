@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/P1/GBCollector.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.o"
+  "/home/shakime/Desktop/CodeWorks/Design-patterns/P1/Set.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/P1/Set.cpp.o"
   "/home/shakime/Desktop/CodeWorks/Design-patterns/mainVSPtr.cpp" "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

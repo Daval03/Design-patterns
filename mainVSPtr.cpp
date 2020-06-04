@@ -1,9 +1,11 @@
 #include <zconf.h>
-#include "P1/VSPointer.h++"
+#include "P1/VSPointer.h"
+#include "P1/LinkedList.h"
 
 auto gbCollector = GBCollector::getInstance();
 
 void hashTest(){
+
     VSPointer<int> vs0 = VSPointer<int>::New();
     *vs0 = 0;
     VSPointer<int> vs1 = VSPointer<int>::New();
