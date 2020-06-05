@@ -57,18 +57,18 @@ include CMakeFiles/Datos_2___2_0.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Datos_2___2_0.dir/flags.make
 
-CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
-CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o: ../mainVSPtr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o -c /home/shakime/Desktop/CodeWorks/Design-patterns/mainVSPtr.cpp
+CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
+CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o: ../P1/mainVSPtr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o -c /home/shakime/Desktop/CodeWorks/Design-patterns/P1/mainVSPtr.cpp
 
-CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shakime/Desktop/CodeWorks/Design-patterns/mainVSPtr.cpp > CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.i
+CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shakime/Desktop/CodeWorks/Design-patterns/P1/mainVSPtr.cpp > CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.i
 
-CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shakime/Desktop/CodeWorks/Design-patterns/mainVSPtr.cpp -o CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.s
+CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shakime/Desktop/CodeWorks/Design-patterns/P1/mainVSPtr.cpp -o CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.s
 
 CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.o: CMakeFiles/Datos_2___2_0.dir/flags.make
 CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.o: ../P1/GBCollector.cpp
@@ -98,14 +98,14 @@ CMakeFiles/Datos_2___2_0.dir/P1/Set.cpp.s: cmake_force
 
 # Object files for target Datos_2___2_0
 Datos_2___2_0_OBJECTS = \
-"CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o" \
+"CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o" \
 "CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.o" \
 "CMakeFiles/Datos_2___2_0.dir/P1/Set.cpp.o"
 
 # External object files for target Datos_2___2_0
 Datos_2___2_0_EXTERNAL_OBJECTS =
 
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o
+Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o
 Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.o
 Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/P1/Set.cpp.o
 Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/build.make

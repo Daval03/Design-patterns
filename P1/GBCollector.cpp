@@ -1,3 +1,4 @@
+
 #include "GBCollector.h"
 
 /* Uninitialized. */
@@ -13,16 +14,69 @@ GBCollector* GBCollector::getInstance() {
     if (instance == nullptr){
 
         instance = new GBCollector();
+
     }
     return instance;
 }
 
-void GBCollector::sweapThread() const {
+void GBCollector::sweapThread() {
     while(true){
         this_thread::sleep_for (std::chrono::seconds(7));
+        // Sweap then load Json.
         sweapMemoryLeaks();
+        serialJson();
     }
 }
+
+void GBCollector::serialJson() {
+    cout << "\n\n[GBCollector]\tSerializing...!\n---------------------------------------\n";
+    json gbJson;
+    gbJson["gbSetsList"] = {};
+    // Push in each set's json brackets.
+    for (int s = 0; s < generalSet->size(); s++) {
+        Set *set = generalSet->at(s);
+        serialJson_aux(gbJson,set,s);
+    }// To write object's data members in a file.
+    writeJsonFile(gbJson);
+    // Print
+    cout << gbJson.find("gbSetsList").value() << endl;
+    cout << "---------------------------------------\n";
+}
+
+void GBCollector::serialJson_aux(json &gbJson, Set* set, int index){
+    // Conversion to string of the memory address of the vspointer.
+    ostringstream get_the_address;
+    get_the_address << set->getVsAddress();
+    string vs_dir = get_the_address.str();
+    // Conversion to string of the memory address of the T inside the pointer.
+    ostringstream get_the_address2;
+    get_the_address2 << set->vsData;
+    string data_dir = get_the_address2.str();
+    //Create an object with required information : jsItem.
+    json js;
+    js["id"] = set->id;
+    js["type"] = set->type;
+    js["vsAddress"] = vs_dir;
+    js["valAddress"] = data_dir;
+    js["value"] = set->getValueData();
+    js["refCount"] = set->refsList->size() + 1;
+    js["refsList"] = {};
+    // Conversion to string of the addresses inside the references list.
+    for(int r=0; r < set->refsList->size(); r++) {
+        ostringstream get_the_address3;
+        get_the_address3 << set->refsList->at(r);
+        string refs_dir = get_the_address3.str();
+        js["refsList"][r] = refs_dir;
+    }
+    gbJson["gbSetsList"][index] = js;
+
+}
+
+void GBCollector::writeJsonFile(const json& data){
+    ofstream outfile (path); // Open in constructor
+    outfile << setw(4) <<data << endl;
+}
+
 
 int GBCollector::length() const {
     return setMap->length();
@@ -167,5 +221,9 @@ void GBCollector::updatePointTo(Set *pointed, Set *referrer) const {
     pushReference(referrer);
     cout << endl;
 }
+
+
+
+
 
 

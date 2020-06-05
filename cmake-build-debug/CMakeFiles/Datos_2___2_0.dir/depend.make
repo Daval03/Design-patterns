@@ -6,15 +6,17 @@ CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.o: ../P1/GBCollector.h
 CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.o: ../P1/HashTable.h
 CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.o: ../P1/LinkedList.h
 CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.o: ../P1/Set.h
+CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.o: ../P1/json.hpp
 
 CMakeFiles/Datos_2___2_0.dir/P1/Set.cpp.o: ../P1/LinkedList.h
 CMakeFiles/Datos_2___2_0.dir/P1/Set.cpp.o: ../P1/Set.cpp
 CMakeFiles/Datos_2___2_0.dir/P1/Set.cpp.o: ../P1/Set.h
 
-CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o: ../P1/GBCollector.h
-CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o: ../P1/HashTable.h
-CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o: ../P1/LinkedList.h
-CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o: ../P1/Set.h
-CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o: ../P1/VSPointer.h
-CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o: ../mainVSPtr.cpp
+CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o: ../P1/GBCollector.h
+CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o: ../P1/HashTable.h
+CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o: ../P1/LinkedList.h
+CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o: ../P1/Set.h
+CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o: ../P1/VSPointer.h
+CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o: ../P1/json.hpp
+CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o: ../P1/mainVSPtr.cpp
 

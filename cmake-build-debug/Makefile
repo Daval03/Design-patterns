@@ -177,32 +177,32 @@ P1/Set.cpp.s:
 	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/P1/Set.cpp.s
 .PHONY : P1/Set.cpp.s
 
-mainVSPtr.o: mainVSPtr.cpp.o
+P1/mainVSPtr.o: P1/mainVSPtr.cpp.o
 
-.PHONY : mainVSPtr.o
+.PHONY : P1/mainVSPtr.o
 
 # target to build an object file
-mainVSPtr.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o
-.PHONY : mainVSPtr.cpp.o
+P1/mainVSPtr.cpp.o:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o
+.PHONY : P1/mainVSPtr.cpp.o
 
-mainVSPtr.i: mainVSPtr.cpp.i
+P1/mainVSPtr.i: P1/mainVSPtr.cpp.i
 
-.PHONY : mainVSPtr.i
+.PHONY : P1/mainVSPtr.i
 
 # target to preprocess a source file
-mainVSPtr.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.i
-.PHONY : mainVSPtr.cpp.i
+P1/mainVSPtr.cpp.i:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.i
+.PHONY : P1/mainVSPtr.cpp.i
 
-mainVSPtr.s: mainVSPtr.cpp.s
+P1/mainVSPtr.s: P1/mainVSPtr.cpp.s
 
-.PHONY : mainVSPtr.s
+.PHONY : P1/mainVSPtr.s
 
 # target to generate assembly for a file
-mainVSPtr.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.s
-.PHONY : mainVSPtr.cpp.s
+P1/mainVSPtr.cpp.s:
+	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.s
+.PHONY : P1/mainVSPtr.cpp.s
 
 # Help Target
 help:
@@ -219,9 +219,9 @@ help:
 	@echo "... P1/Set.o"
 	@echo "... P1/Set.i"
 	@echo "... P1/Set.s"
-	@echo "... mainVSPtr.o"
-	@echo "... mainVSPtr.i"
-	@echo "... mainVSPtr.s"
+	@echo "... P1/mainVSPtr.o"
+	@echo "... P1/mainVSPtr.i"
+	@echo "... P1/mainVSPtr.s"
 .PHONY : help
 
 

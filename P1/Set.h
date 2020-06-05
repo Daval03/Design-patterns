@@ -59,9 +59,6 @@ public:
      * @param address
      */
     void removeAddress(void** address) const;
-
-
-
 };
 
 

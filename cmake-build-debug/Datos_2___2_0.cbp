@@ -105,7 +105,10 @@
 		<Unit filename="/home/shakime/Desktop/CodeWorks/Design-patterns/P1/VSPointer.h">
 			<Option target="Datos_2___2_0"/>
 		</Unit>
-		<Unit filename="/home/shakime/Desktop/CodeWorks/Design-patterns/mainVSPtr.cpp">
+		<Unit filename="/home/shakime/Desktop/CodeWorks/Design-patterns/P1/json.hpp">
+			<Option target="Datos_2___2_0"/>
+		</Unit>
+		<Unit filename="/home/shakime/Desktop/CodeWorks/Design-patterns/P1/mainVSPtr.cpp">
 			<Option target="Datos_2___2_0"/>
 		</Unit>
 		<Unit filename="/home/shakime/Desktop/CodeWorks/Design-patterns/CMakeLists.txt">

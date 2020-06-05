@@ -1,3 +1,4 @@
+#include <sstream>
 #include "Set.h"
 
 Set::Set(const string &id, const string &type, void *vsData, void *vsAddress){
@@ -48,4 +49,5 @@ void Set::removeAddress(void **address) const {
             refsList->removeByInt(i);
     }
 }
+
 

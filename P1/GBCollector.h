@@ -3,13 +3,23 @@
 
 #include <map>
 #include <thread>
+#include <sstream>
+#include <fstream>
+#include <iomanip>
+#include <unistd.h>
 
+#include "json.hpp"
 #include "HashTable.h"
 #include "LinkedList.h"
 #include "Set.h"
 
+// for convenience
+using json = nlohmann::json;
+
 class DATOS_2___2_0_GBCOLLECTOR_H GBCollector {
 private:
+    /* Json file Path */
+    const char *path="/home/shakime/Desktop/prueba.json";
     /* static gbCollector instance. */
     static GBCollector *instance;
     /* Private Constructor */
@@ -18,7 +28,7 @@ private:
     /**
     * Infinite loop for automatic sweaping memoryLeaks.
     */
-    [[noreturn]] void sweapThread() const;
+    [[noreturn]] void sweapThread();
 
 public:
     /* Empty multimap container. HashTable for Sets elements */
@@ -49,6 +59,18 @@ public:
      * Free unused allocated memory.
      */
     void sweapMemoryLeaks() const;
+
+    /**
+     * Write a Jstring of each Set in gbSets.
+     */
+    void serialJson();
+    static void serialJson_aux(json &gbJson, Set* set, int index);
+
+    /**
+     * Write a Jstring in a .json file
+     * @param data
+     */
+    void writeJsonFile(const json& data);
 
     /**
      * Returns true for original, false for ref.
@@ -116,6 +138,9 @@ public:
      * @param referrer
      */
     void updatePointTo(Set *pointed, Set *referrer) const;
+
+
+
 };
 
 

@@ -1,6 +1,6 @@
 #include <zconf.h>
-#include "P1/VSPointer.h"
-#include "P1/LinkedList.h"
+#include "VSPointer.h"
+#include "LinkedList.h"
 
 auto gbCollector = GBCollector::getInstance();
 
@@ -14,13 +14,12 @@ void hashTest(){
     *vs2 =2;
     VSPointer<int> vs3 =  VSPointer<int>::New();
     *vs3 = 3;
-    VSPointer<int> vs4 =  VSPointer<int>::New();
-    *vs4 = 4;
-    vs1=vs0;
-    vs2=vs1;
+//    VSPointer<int> vs4 =  VSPointer<int>::New();
+//    *vs4 = 4;
+    vs0=vs1;
+    vs2=vs3;
     sleep(5);
-    vs0=vs3;
-    vs4=vs3;
+//    vs4=vs2;
     sleep(5);
 
     //print element
@@ -34,6 +33,8 @@ void hashTest(){
 int main() {
     //tests with hash
     hashTest();
+    sleep(10);
+    gbCollector->print();
 }
 
 

@@ -1,1 +1,1 @@
-/usr/bin/c++  -pthread -g   CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.o CMakeFiles/Datos_2___2_0.dir/P1/Set.cpp.o  -o Datos_2___2_0  -pthread 
+/usr/bin/c++  -pthread -g   CMakeFiles/Datos_2___2_0.dir/P1/mainVSPtr.cpp.o CMakeFiles/Datos_2___2_0.dir/P1/GBCollector.cpp.o CMakeFiles/Datos_2___2_0.dir/P1/Set.cpp.o  -o Datos_2___2_0  -pthread 

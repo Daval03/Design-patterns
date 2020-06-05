@@ -78,14 +78,8 @@ public:
     VSPointer& operator=(VSPointer pointed){
         cout << "\n[Operator(=)]\t( " << id << ", " << *data << " )\t->\t( "
         << pointed.id << ", " << *pointed.data << " )" << endl;
-//        string type2 = typeid(T).name();
-//        if(type==type2){
-//            data = pointed.data;
-            gbCollector->update(pointed.id, id, pointed.address,reinterpret_cast<void **>(this));
-            id = pointed.id;
-//        }else{
-//            cout << "Operation fail, types don't match" << endl;
-//        }
+        gbCollector->update(pointed.id, id, pointed.address,reinterpret_cast<void **>(this));
+        id = pointed.id;
     }
 
     /**
